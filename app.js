@@ -104,7 +104,7 @@ function studyCard(study) {
   return `
     <article class="study-card">
       <div class="card-top"><span class="study-id">${escapeHtml(study.id)}</span><span class="year-pill">${study.year || "Year NR"}</span></div>
-      <h3>${escapeHtml(study.title || "Untitled study")}</h3>
+      <h3><a class="paper-title-link" href="${escapeHtml(doi)}" target="_blank" rel="noopener" aria-label="Open ${escapeHtml(study.title || "study")}">${escapeHtml(study.title || "Untitled study")}</a></h3>
       <p class="authors">${escapeHtml(study.authors.join(", ") || "Authors not reported")}</p>
       <div class="tags">
         ${tags.map((tag, index) => `<span class="tag ${index === 1 ? "teal" : index === 2 ? "blue" : ""}">${escapeHtml(tag)}</span>`).join("")}
@@ -117,7 +117,7 @@ function studyCard(study) {
       </div>
       <div class="card-footer">
         <div class="completeness"><span>Reporting completeness ${completeness.toFixed(1)}%</span><div class="mini-track"><i style="width:${completeness}%"></i></div></div>
-        ${doi ? `<a class="doi-link" href="${escapeHtml(doi)}" target="_blank" rel="noopener">DOI ↗</a>` : ""}
+        <a class="doi-link" href="${escapeHtml(doi)}" target="_blank" rel="noopener">View paper ↗</a>
       </div>
     </article>
   `;
