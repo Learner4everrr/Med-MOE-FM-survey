@@ -142,7 +142,7 @@ const publicData = {
   version: "1.0.0",
   generated: new Date().toISOString().slice(0, 10),
   studyCount: studies.length,
-  note: "Only bibliographic metadata and reviewer-derived categorical or quantitative fields are included. Abstracts, full-text evidence snippets, internal reviewer assignments, and copyrighted source text are excluded.",
+  note: "Only bibliographic metadata and structured study characteristics are included. Abstracts, full-text evidence snippets, local workflow fields, and copyrighted source text are excluded.",
   studies,
 };
 

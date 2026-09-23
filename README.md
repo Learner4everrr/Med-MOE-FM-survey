@@ -22,15 +22,12 @@ scripts/build-public-data.mjs Reproducible CSV-to-JSON export
 
 ## Data scope
 
-The public JSON contains bibliographic metadata and reviewer-derived categorical or quantitative fields. It intentionally excludes:
+The public JSON contains bibliographic metadata and structured categorical or quantitative study characteristics. It intentionally excludes:
 
 - article abstracts;
 - full-text evidence excerpts;
 - publisher PDFs;
-- internal reviewer assignments;
-- local file paths and extraction diagnostics.
-
-Study data were extracted by a reviewer and verified by a second reviewer, with disagreements resolved by consensus or a third reviewer when required.
+- local workflow fields, file paths, and extraction diagnostics.
 
 ## Rebuild the public data
 
@@ -59,5 +56,4 @@ Citation metadata are provided in `CITATION.cff`. A versioned GitHub release can
 ## Licenses
 
 - Website source code: MIT License.
-- Reviewer-derived public dataset: CC BY 4.0; see `DATA_LICENSE.md`.
-
+- Structured public dataset: CC BY 4.0; see `DATA_LICENSE.md`.
