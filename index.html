@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive evidence map of mixture-of-experts architectures in medical foundation models."
+    />
+    <title>Med-MoE-FM Evidence Map</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Med-MoE-FM home">
+        <span class="brand-mark">M</span>
+        <span>
+          <strong>Med-MoE-FM</strong>
+          <small>Evidence map</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#studies">Studies</a>
+        <a href="#methods">Methods</a>
+      </nav>
+      <a class="header-action" href="#studies">Explore studies</a>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Interactive scoping review</div>
+          <h1>Mixture-of-Experts in<br /><em>Medical Foundation Models</em></h1>
+          <p class="hero-lede">
+            Explore how medical foundation models organize experts, route information, and progress from
+            benchmark performance toward clinically credible evidence.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#studies">Browse the evidence</a>
+            <a class="button secondary" href="#methods">Review methods</a>
+          </div>
+          <div class="hero-footnote">
+            <span class="status-dot"></span>
+            <span>Study-level metadata and reviewer-derived classifications</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Conceptual mixture-of-experts routing diagram">
+          <div class="visual-caption">Architecture at a glance</div>
+          <div class="signal-column">
+            <span>Image</span><span>Text</span><span>Signals</span><span>Molecular</span>
+          </div>
+          <div class="flow-lines" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <div class="router-node">
+            <span>Adaptive</span>
+            <strong>ROUTER</strong>
+          </div>
+          <div class="experts-ring">
+            <div class="expert expert-a">E1<small>Modality</small></div>
+            <div class="expert expert-b">E2<small>Task</small></div>
+            <div class="expert expert-c">E3<small>Domain</small></div>
+            <div class="expert expert-d">E4<small>Adapter</small></div>
+          </div>
+          <div class="visual-output">Specialized clinical output <span>→</span></div>
+        </div>
+      </section>
+
+      <section class="metrics shell" aria-label="Review highlights">
+        <article><strong id="metricStudies">90</strong><span>included studies</span></article>
+        <article><strong id="metricRecent">—</strong><span>published in 2025–2026</span></article>
+        <article><strong id="metricRouting">53</strong><span>explicit input-dependent routing</span></article>
+        <article><strong id="metricExternal">9</strong><span>independent external evaluations</span></article>
+      </section>
+
+      <section id="overview" class="section shell">
+        <div class="section-heading">
+          <div>
+            <span class="kicker">Evidence landscape</span>
+            <h2>A fast-growing field with uneven translational depth</h2>
+          </div>
+          <p>
+            The review maps architectural choices alongside the strength of the reported clinical evidence,
+            making design patterns and evidence gaps visible in the same view.
+          </p>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel panel-wide">
+            <div class="panel-heading">
+              <div><span class="panel-index">01</span><h3>Publication growth</h3></div>
+              <span class="panel-note">Studies per year</span>
+            </div>
+            <div id="yearChart" class="year-chart" aria-label="Publication counts by year"></div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div><span class="panel-index">02</span><h3>Evidence maturity</h3></div>
+            </div>
+            <div id="evidenceChart" class="evidence-chart"></div>
+          </article>
+
+          <article class="panel panel-full">
+            <div class="panel-heading">
+              <div><span class="panel-index">03</span><h3>Primary applications</h3></div>
+              <span class="panel-note">Click a category to filter studies</span>
+            </div>
+            <div id="applicationChart" class="application-chart"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="section architecture-section">
+        <div class="shell">
+          <div class="section-heading light">
+            <div>
+              <span class="kicker">Architecture explorer</span>
+              <h2>From heterogeneous inputs to clinical evidence</h2>
+            </div>
+            <p>Five linked dimensions organize the review taxonomy and make different MoE systems comparable.</p>
+          </div>
+
+          <div class="architecture-flow">
+            <article>
+              <span>01</span><div class="arch-icon">IN</div><h3>Inputs</h3>
+              <p>Images, text, EHR signals, physiological waveforms, and molecular measurements.</p>
+            </article>
+            <i>→</i>
+            <article>
+              <span>02</span><div class="arch-icon">EX</div><h3>Experts</h3>
+              <p>Modality, task, domain, adapter, patient-group, and model-scale specialization.</p>
+            </article>
+            <i>→</i>
+            <article>
+              <span>03</span><div class="arch-icon">RT</div><h3>Routing</h3>
+              <p>Token, feature, modality, task, sample, or model-level expert assignment.</p>
+            </article>
+            <i>→</i>
+            <article>
+              <span>04</span><div class="arch-icon">FN</div><h3>Function</h3>
+              <p>Fusion, specialization, efficient adaptation, scalability, and decision support.</p>
+            </article>
+            <i>→</i>
+            <article>
+              <span>05</span><div class="arch-icon">EV</div><h3>Evidence</h3>
+              <p>Benchmarks, internal cohorts, external validation, multicentre and human evaluation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="studies" class="section shell studies-section">
+        <div class="section-heading">
+          <div>
+            <span class="kicker">Study explorer</span>
+            <h2>Search the included evidence</h2>
+          </div>
+          <p>Filter the 90 included studies by architecture, application, routing, and evidence maturity.</p>
+        </div>
+
+        <div class="explorer-shell">
+          <aside class="filters" aria-label="Study filters">
+            <div class="filter-title"><strong>Filters</strong><button id="resetFilters" type="button">Reset</button></div>
+            <label>
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Title, author, DOI, or ID" />
+            </label>
+            <label><span>Application</span><select id="applicationFilter"><option value="">All applications</option></select></label>
+            <label><span>Expert organization</span><select id="expertFilter"><option value="">All expert types</option></select></label>
+            <label><span>MoE function</span><select id="functionFilter"><option value="">All functions</option></select></label>
+            <label><span>Evidence tier</span><select id="evidenceFilter"><option value="">All evidence tiers</option></select></label>
+            <label><span>Publication year</span><select id="yearFilter"><option value="">All years</option></select></label>
+            <label class="check-filter"><input id="routingFilter" type="checkbox" /><span>Explicit input-dependent routing</span></label>
+            <label class="check-filter"><input id="externalFilter" type="checkbox" /><span>Independent external evaluation</span></label>
+          </aside>
+
+          <div class="results-area">
+            <div class="results-toolbar">
+              <div><strong id="resultCount">90</strong><span> studies match</span></div>
+              <div class="view-note">Public view excludes copyrighted evidence excerpts</div>
+            </div>
+            <div id="studyGrid" class="study-grid" aria-live="polite"></div>
+            <button id="loadMore" class="load-more" type="button">Show more studies</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="methods" class="section methods-section">
+        <div class="shell methods-grid">
+          <div>
+            <span class="kicker">Review methods</span>
+            <h2>Transparent by design</h2>
+            <p>
+              This public evidence map presents bibliographic metadata and reviewer-derived fields from a
+              PRISMA-ScR-aligned review. It does not redistribute article abstracts, full-text passages, or PDFs.
+            </p>
+          </div>
+          <div class="method-list">
+            <article><span>01</span><div><h3>Comprehensive discovery</h3><p>Seven bibliographic databases and three supplementary discovery sources.</p></div></article>
+            <article><span>02</span><div><h3>Verified extraction</h3><p>Each study was extracted by one reviewer and verified by a second reviewer.</p></div></article>
+            <article><span>03</span><div><h3>Operational taxonomy</h3><p>Applications, expert organization, routing, MoE function, and evidence were coded separately.</p></div></article>
+            <article><span>04</span><div><h3>Reproducible public view</h3><p>The website is generated from a versioned, machine-readable JSON dataset.</p></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <div><strong>Med-MoE-FM Evidence Map</strong><p>Interactive companion to a scoping review of medical foundation-model MoE systems.</p></div>
+        <div><span>Dataset version</span><strong id="dataVersion">1.0.0</strong></div>
+        <div><span>Last updated</span><strong id="lastUpdated">—</strong></div>
+        <div><span>Repository</span><a href="https://github.com/Learner4everrr/Med-MOE-FM-survey">GitHub ↗</a></div>
+      </div>
+    </footer>
+
+    <noscript>This evidence map requires JavaScript to load the study-level data.</noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>

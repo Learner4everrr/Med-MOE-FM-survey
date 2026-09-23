@@ -1,0 +1,4699 @@
+{
+  "title": "Mixture-of-Experts in Medical Foundation Models",
+  "description": "Public, study-level evidence map derived from a scoping review of medical foundation-model MoE systems.",
+  "version": "1.0.0",
+  "generated": "2026-09-23",
+  "studyCount": 90,
+  "note": "Only bibliographic metadata and reviewer-derived categorical or quantitative fields are included. Abstracts, full-text evidence snippets, internal reviewer assignments, and copyrighted source text are excluded.",
+  "studies": [
+    {
+      "id": "MOE00585",
+      "title": "Large-small model collaboration for medical visual question answering with task aware mixture of experts and relation knowledge distillation",
+      "authors": [
+        "Qishen Chen",
+        "Wenxuan He",
+        "Xingyuan Chen",
+        "Chen Cheng",
+        "Minjie Bian",
+        "Huahu Xu"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.imavis.2025.105820",
+      "documentType": "Article",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis",
+        "question answering",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging"
+      ],
+      "datasets": [
+        "VQA-RAD",
+        "SLAKE"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task",
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Uncertainty or reliability",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00661",
+      "title": "Adaptive Mixture of Experts for Cross-Domain Medical Image Segmentation with Vision Foundation Models",
+      "authors": [
+        "Qifei Wang",
+        "Yuefeng Zhao",
+        "Bolin Chen",
+        "Nai Zhou",
+        "Qianqian Tao",
+        "Nannan Hu"
+      ],
+      "year": 2026,
+      "doi": "10.1007/978-981-95-5764-6_37",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Radiology and imaging",
+        "Pathology",
+        "Dermatology",
+        "Respiratory",
+        "Gastroenterology",
+        "Endocrine and metabolic",
+        "Infectious disease"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00917",
+      "title": "BioCancer-MoLA: Mixture of LoRA Experts with Knowledge-Guided Routing for Hallucination Mitigation in Breast Cancer Decision Support.",
+      "authors": [
+        "Bechar A. Elmir Y. Medjoudj R. Himeur Y. Amira A. Mazouzi C. Kouchkar A."
+      ],
+      "year": 2026,
+      "doi": "10.2139/ssrn.6534084",
+      "documentType": "Preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "risk/outcome prediction",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Oncology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set; external/independent validation; prospective study",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00450",
+      "title": "Genomics-Enhanced Cancer Risk Prediction for Personalized LLM-Driven Healthcare Recommender Systems",
+      "authors": [
+        "Lu, Kezhi",
+        "Lu, Jie",
+        "Xu, Hanshi",
+        "Guo, Kairui",
+        "Zhang, Qian",
+        "Lin, Hua",
+        "Grosser, Mark",
+        "Zhang, Yi",
+        "Zhang, Guangquan"
+      ],
+      "year": 2025,
+      "doi": "10.1145/3745022",
+      "documentType": "Article",
+      "application": "EHR, patient trajectories and risk prediction",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "risk/outcome prediction",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Oncology",
+        "Genomics and molecular"
+      ],
+      "datasets": [
+        "UK Biobank"
+      ],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01204",
+      "title": "MHARFedLLM: Multimodal Human Activity Recognition Using Federated Large Language Model",
+      "authors": [
+        "Asmit Bandyopadhyay",
+        "Rohit Basu",
+        "Tanmay Sen",
+        "Swagatam Das"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2508.01701",
+      "documentType": "preprint",
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "physiological / wearable signals",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "representation learning"
+      ],
+      "specialties": [
+        "Neurology",
+        "Genomics and molecular",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [
+        "T5",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00748",
+      "title": "M⁴oE: A Foundation Model for Medical Multimodal Image Segmentation with Mixture of Experts",
+      "authors": [
+        "Yufeng Jiang",
+        "Yiqing Shen"
+      ],
+      "year": 2024,
+      "doi": "10.1007/978-3-031-72390-2_58",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Radiology and imaging",
+        "Gastroenterology"
+      ],
+      "datasets": [
+        "ATLAS2023"
+      ],
+      "backbones": [
+        "Swin Transformer",
+        "SAM",
+        "Transformer"
+      ],
+      "routingDensity": "dense/soft combination",
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01272",
+      "title": "MING-MOE: Enhancing Medical Multi-Task Learning in Large Language Models with Sparse Mixture of Low-Rank Adapter Experts",
+      "authors": [
+        "Yusheng Liao",
+        "Shuyang Jiang",
+        "Yu Wang",
+        "Yanfeng Wang"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arxiv.2404.09027",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [],
+      "tasks": [
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Oral health"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Proprietary model",
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00208",
+      "title": "Profile-aided distillation framework for personalized sleep analysis with compact models using LLM-guided synthetic data.",
+      "authors": [
+        "Zheng, HM",
+        "Ai, XX",
+        "Liu, XY",
+        "Xing, XF",
+        "Xu, XM"
+      ],
+      "year": 2026,
+      "doi": "10.3389/fphys.2025.1678364",
+      "documentType": "Article",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [
+        "physiological / wearable signals"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Cardiology",
+        "Rehabilitation"
+      ],
+      "datasets": [
+        "PhysioNet",
+        "Public"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "cross-validation; held-out test set; prospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE02117",
+      "title": "Medvlmoe: sparse mixture of experts vision language model for multi-pathology medical image diagnosis",
+      "authors": [
+        "Dr. Inam Ullah Khan"
+      ],
+      "year": 2025,
+      "doi": "10.55529/jaimlnn.51.114.121",
+      "documentType": null,
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Cardiology",
+        "Pathology",
+        "Ophthalmology"
+      ],
+      "datasets": [
+        "MIMIC-CXR",
+        "CheXpert",
+        "ChestX-ray14"
+      ],
+      "backbones": [
+        "CLIP",
+        "ViT"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00827",
+      "title": "SAM-Med3D-MoE: Towards a Non-Forgetting Segment Anything Model via Mixture of Experts for 3D Medical Image Segmentation",
+      "authors": [
+        "Guoan Wang",
+        "Jin Ye",
+        "Junlong Cheng",
+        "Tianbin Li",
+        "Zhaolin Chen",
+        "Jianfei Cai",
+        "Junjun He",
+        "Bohan Zhuang"
+      ],
+      "year": 2024,
+      "doi": "10.1007/978-3-031-72114-4_53",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [
+        "diagnosis",
+        "recommendation / decision support",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology"
+      ],
+      "datasets": [
+        "SPPIN"
+      ],
+      "backbones": [
+        "ViT",
+        "SAM",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00871",
+      "title": "Uni-Med: A Unified Medical Generalist Foundation Model For Multi-Task Learning Via Connector-MoE",
+      "authors": [
+        "Xun Zhu",
+        "Ying Hu",
+        "Fanbin Mo",
+        "Miao Li",
+        "Ji Wu"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arxiv.2409.17508",
+      "documentType": "Proceedings Paper",
+      "application": "Clinical NLP, documentation and question answering",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "classification",
+        "generation",
+        "question answering",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Gastroenterology"
+      ],
+      "datasets": [
+        "MIMIC-CXR",
+        "PubMedQA",
+        "MedQA",
+        "SLAKE",
+        "PathVQA"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE00186",
+      "title": "Cervi-LLM for real time colposcopy lesion detection and interpretable diagnosis.",
+      "authors": [
+        "Hu Z, Ma L, Huang S, Wei Y, Gu L, Hong Z, Ding Y, Wu A, Di W, Lu H, Qiu L."
+      ],
+      "year": 2026,
+      "doi": "10.1038/s41598-026-52432-8",
+      "documentType": "Article In Press",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis"
+      ],
+      "specialties": [
+        "Oncology",
+        "Pathology",
+        "Gastroenterology"
+      ],
+      "datasets": [],
+      "backbones": [
+        "U-Net"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE01206",
+      "title": "Massively Multimodal Foundation Models: A Framework for Capturing Interactions with Specialized Mixture-of-Experts",
+      "authors": [
+        "Xing Han",
+        "Hsing-Huan Chung",
+        "Joydeep Ghosh",
+        "Paul Pu Liang",
+        "Suchi Saria"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2509.25678",
+      "documentType": "preprint",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "physiological / wearable signals"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Neurology",
+        "Cardiology",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00386",
+      "title": "Enhancing Healthcare Recommendation Systems with a Multimodal LLMs-Based MOE Architecture",
+      "authors": [
+        "Jingyu Xu",
+        "Yang Wang"
+      ],
+      "year": 2025,
+      "doi": "10.1049/icp.2025.1023",
+      "documentType": "Conference paper",
+      "application": "Treatment, recommendation and causal inference",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "classification",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00136",
+      "title": "LCM-Net: LLM-Driven Cross-Modality MoE Feature Fusion Network for Cancer Survival Analysis.",
+      "authors": [
+        "Yang, SC",
+        "Zhou, HP",
+        "Yang, YJ",
+        "Wang, WM",
+        "Chen, SF",
+        "Yang, G",
+        "Fu, HZ",
+        "Zhu, L"
+      ],
+      "year": 2026,
+      "doi": "10.1109/tmi.2026.3657518",
+      "documentType": "Article",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "risk/outcome prediction"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Pathology",
+        "Genomics and molecular",
+        "Gastroenterology",
+        "Nephrology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "cross-validation; held-out test set; prospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00344",
+      "title": "A Method for Enhancing TCM Consultation System Based on RLAIF and MoE",
+      "authors": [
+        "Y. Chen",
+        "S. Kong",
+        "Q. Xiao",
+        "K. Ma",
+        "M. Wang",
+        "J. Chen"
+      ],
+      "year": 2025,
+      "doi": "10.1109/aicsip65423.2025.11427294",
+      "documentType": "IEEE Conferences",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [],
+      "tasks": [
+        "diagnosis",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Cardiology",
+        "Dermatology"
+      ],
+      "datasets": [],
+      "backbones": [
+        "DeepSeek"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": "Mixed proprietary and open-weight",
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE01102",
+      "title": "Predicting Immune Biomarkers with MultiModal Mixture-of-Expert Pathology Foundation Models Empowers Precision Oncology",
+      "authors": [
+        "Tianyu Liu",
+        "Ziqing Wang",
+        "Zhaokang Liang",
+        "Tong Ding",
+        "Peter Humphrey",
+        "Lorraine Colón-Cartagena",
+        "Emily Ling-Lin Pai",
+        "Kenneth Tou En Chang",
+        "Mohamed Kahila",
+        "Jonathan Chong Kai Liew",
+        "Tinglin Huang",
+        "Rex Ying",
+        "Kaize Ding",
+        "Faisal Mahmood",
+        "Wengong Jin"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2606.18123",
+      "documentType": "preprint",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "risk/outcome prediction",
+        "generation"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Pathology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00282",
+      "title": "Medical Document Embedding Enhancement with Heterogeneous Mixture-of-Experts",
+      "authors": [
+        "Liu, XY",
+        "Zhu, Y",
+        "Pang, TQ",
+        "Xue, K",
+        "Zhang, XF",
+        "Fan, CY"
+      ],
+      "year": 2024,
+      "doi": "10.1109/bibm62325.2024.10822374",
+      "documentType": "Proceedings Paper",
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "clinical text / notes"
+      ],
+      "tasks": [
+        "representation learning"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01227",
+      "title": "EnECG: Efficient Ensemble Learning for Electrocardiogram Multi-task Foundation Model",
+      "authors": [
+        "Yuhao Xu",
+        "Xiaoda Wang",
+        "J. G. Lu",
+        "Sirui Ding",
+        "Cao, Defu",
+        "Huaxiu Yao",
+        "Yan Liu",
+        "Xiaobing Hu",
+        "Yang, Carl"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2511.22935",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [
+        "physiological / wearable signals",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Cardiology",
+        "Genomics and molecular",
+        "Rehabilitation"
+      ],
+      "datasets": [
+        "MIMIC-IV"
+      ],
+      "backbones": [],
+      "routingDensity": "dense/soft combination",
+      "routingGranularity": [
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE01152",
+      "title": "DeepFusion: Accelerating MoE Training via Federated Knowledge Distillation from Heterogeneous Edge Devices",
+      "authors": [
+        "Songyuan Li",
+        "Jia Hu",
+        "Ahmed M. Abdelmoniem",
+        "Geyong Min",
+        "Haojun Huang",
+        "Jiwei Huang"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2602.14301",
+      "documentType": "preprint",
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Qwen",
+        "DeepSeek"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task",
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01254",
+      "title": "47B Mixture-of-Experts Beats 671B Dense Models on Chinese Medical Examinations",
+      "authors": [
+        "Tseng, Chiung-Yi",
+        "D. H. Zhang",
+        "Tianyang Wang",
+        "Hongying Luo",
+        "Lu Chen",
+        "Junming Huang",
+        "Jibin Guan",
+        "Junfeng Hao",
+        "Song, Junhao",
+        "Song, Xinyuan",
+        "Bi, Ziqian"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2511.21701",
+      "documentType": "preprint",
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [],
+      "tasks": [
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Neurology",
+        "Cardiology",
+        "Mental health",
+        "Respiratory",
+        "Gastroenterology",
+        "Nephrology",
+        "Infectious disease"
+      ],
+      "datasets": [],
+      "backbones": [
+        "DeepSeek",
+        "Mixtral"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00321",
+      "title": "Digital Virtual Assistant Based on Expert Hybrid Medical Large Language Model",
+      "authors": [
+        "Junyi Chai",
+        "Zhang Wang",
+        "Jialing Shen",
+        "Leina Zheng",
+        "Zhengqi Pan",
+        "Tiejun Pan",
+        "Yongqingyang Jin"
+      ],
+      "year": 2024,
+      "doi": "10.1109/cenim64038.2024.10882803",
+      "documentType": "IEEE Conferences",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [
+        "physiological / wearable signals"
+      ],
+      "tasks": [
+        "recommendation / decision support",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Neurology",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 60
+    },
+    {
+      "id": "MOE00547",
+      "title": "MAST-Pro: Dynamic Mixture-of-Experts for Adaptive Segmentation of Pan-Tumors with Knowledge-Driven Prompts",
+      "authors": [
+        "Runqi Meng",
+        "Sifan Song",
+        "Pengfei Jin",
+        "Yujin Oh",
+        "Lin Teng",
+        "Yulin Wang",
+        "Yiqun Sun",
+        "Ling Chen",
+        "Xiang Li",
+        "Quanzheng Li",
+        "Ning Guo",
+        "Dinggang Shen"
+      ],
+      "year": 2026,
+      "doi": "10.1007/978-3-032-05325-1_30",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [
+        "medical imaging",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology"
+      ],
+      "datasets": [
+        "MSD"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00375",
+      "title": "Multimodal Foundation Model Adaptation with Clinical Knowledge Guidance for IDH Genotyping",
+      "authors": [
+        "H. Kuang",
+        "Y. Chen",
+        "J. Liu",
+        "J. Wang",
+        "Z. Qu",
+        "S. Kan"
+      ],
+      "year": 2025,
+      "doi": "10.1109/bibm66473.2025.11356970",
+      "documentType": "IEEE Conferences",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "omics / molecular",
+        "demographics / clinical variables",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [
+        "ViT"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set; external/independent validation",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE01120",
+      "title": "MambaFormer: Token-Level Guided Routing Mixture-of-Experts for Accurate and Efficient Clinical Assistance",
+      "authors": [
+        "Hamad Khan",
+        "Saddam Hussain Khan"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2601.01260",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [],
+      "tasks": [
+        "question answering",
+        "representation learning"
+      ],
+      "specialties": [
+        "Gastroenterology",
+        "Oral health"
+      ],
+      "datasets": [
+        "PubMedQA",
+        "DentalQA"
+      ],
+      "backbones": [
+        "T5",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Token"
+      ],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set; prospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE02400",
+      "title": "Beyond SMOTE: Evaluating large language models and mixture of experts for prediction of surgical site infections",
+      "authors": [
+        "Stephen Russell"
+      ],
+      "year": 2025,
+      "doi": "10.36922/aih025400082",
+      "documentType": null,
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Decision/model collaboration",
+      "modalities": [
+        "EHR structured/tabular",
+        "omics / molecular"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Oncology",
+        "Genomics and molecular",
+        "Gastroenterology",
+        "Infectious disease",
+        "Surgery"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "cross-validation; held-out test set; external/independent validation; retrospective study",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE00257",
+      "title": "MicarVLMoE: A Modern Gated Cross-Aligned Vision-Language Mixture of Experts Model for Medical Image Captioning and Report Generation",
+      "authors": [
+        "Amaan Izhar",
+        "Nurul Japar",
+        "Norisma Idris",
+        "Ting Dang"
+      ],
+      "year": 2025,
+      "doi": "10.1109/ijcnn64981.2025.11228227",
+      "documentType": "Proceedings Paper",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "EHR structured/tabular",
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "generation"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Cardiology",
+        "Pathology",
+        "Ophthalmology",
+        "Respiratory",
+        "Infectious disease"
+      ],
+      "datasets": [
+        "ROCO"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00175",
+      "title": "SegAnyPath: A Foundation Model for Multi- Resolution Stain-Variant and Multi-Task Pathology Image Segmentation.",
+      "authors": [
+        "Wang, C",
+        "Wan, YJ",
+        "Li, SX",
+        "Qu, KL",
+        "Zhou, XZ",
+        "He, JJ",
+        "Ke, J",
+        "Yu, Y",
+        "Wang, TY",
+        "Shen, YQ"
+      ],
+      "year": 2025,
+      "doi": "10.1109/tmi.2024.3501352",
+      "documentType": "IEEE Journals",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Multi-task sharing",
+      "modalities": [
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "diagnosis",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Pathology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [
+        "SAM"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE01085",
+      "title": "Unified Multi-Foundation-Model Slide Representation for Pan-Cancer Recognition and Text-Guided Tumor Localization",
+      "authors": [
+        "Tianyang Wang",
+        "Ziyu Su",
+        "Abdul Rehman Akbar",
+        "Usama Sajjad",
+        "Lina Gokhale",
+        "Charles Rabolli",
+        "Wei Chen",
+        "Anil Parwani",
+        "Muhammad Khalid Khan Niazi"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2604.22846",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "EHR structured/tabular",
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Critical care",
+        "Pathology",
+        "Genomics and molecular",
+        "Dermatology"
+      ],
+      "datasets": [
+        "TCGA",
+        "CHTN"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "cross-validation; held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE00507",
+      "title": "LIFTED: Multimodal Clinical Trial Outcome Prediction via Large Language Models and Mixture-of-Experts",
+      "authors": [
+        "Wenhao Zheng",
+        "Liaoyaqi Wang",
+        "Dongshen Peng",
+        "Hongxia Xu",
+        "Yun Li",
+        "Hongtu Zhu",
+        "Tianfan Fu",
+        "Huaxiu Yao"
+      ],
+      "year": 2025,
+      "doi": "10.18653/v1/2025.findings-emnlp.396",
+      "documentType": "Conference paper",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [
+        "risk/outcome prediction"
+      ],
+      "specialties": [
+        "Oncology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Modality",
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 46.7
+    },
+    {
+      "id": "MOE01196",
+      "title": "Multimodal LLM With Hierarchical Mixture-of-Experts for VQA on 3D Brain MRI",
+      "authors": [
+        "Arvind Murari Vepa",
+        "Yannan Yu",
+        "Jingru Gan",
+        "Anthony Cuturrufo",
+        "Michael F. Romano",
+        "Weikai Li",
+        "Fabien Scalzo",
+        "Wei Wang",
+        "Yizhou Sun"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2509.25889",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "question answering",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Mental health",
+        "Pathology",
+        "Surgery"
+      ],
+      "datasets": [
+        "BraTS"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Token",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": true,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00639",
+      "title": "MoE-MSC: Mixture of Experts with Multi-Stream Connector for Modality-Aware Medical Image Captioning",
+      "authors": [
+        "Rubel, Al Shahriar",
+        "Shih, Frank Y",
+        "Deek, Fadi P"
+      ],
+      "year": 2025,
+      "doi": "10.1145/3765612.3767248",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Radiology and imaging"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01277",
+      "title": "GSCo: Towards Generalizable AI in Medicine via Generalist-Specialist Collaboration",
+      "authors": [
+        "Sunan He",
+        "Yuxiang Nie",
+        "Hongmei Wang",
+        "Shu Yang",
+        "Wang, Yihui",
+        "Zhiyuan Cai",
+        "Zhixuan Chen",
+        "Xu, Yingxue",
+        "Luo, Luyang",
+        "Xiang, Huiling",
+        "Lin, Xi",
+        "Wu, Mingxiang",
+        "Peng, Yifan",
+        "Shih, George",
+        "Xu, Ziyang",
+        "Wu, Xian",
+        "Wang, Qiong",
+        "Chan, Ronald Cheong Kin",
+        "Vardhanabhuti, Varut",
+        "Chu, Winnie Chiu Wing",
+        "Zheng, Yefeng",
+        "Rajpurkar, Pranav",
+        "Zhang, Kang",
+        "Hao Chen"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arxiv.2404.15127",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Decision/model collaboration",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "generation",
+        "question answering"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Pathology",
+        "Dermatology",
+        "Gastroenterology",
+        "Surgery"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set; multicenter evaluation",
+      "externalValidation": false,
+      "multicentreEvaluation": true,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE02079",
+      "title": "Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology",
+      "authors": [
+        "Chenyu Li",
+        "Elias Mark Ziyadeh",
+        "Yash Sharma",
+        "Bernhard Dumoulin",
+        "Jonathan Levinsohn",
+        "Eunji Ha",
+        "Siyu Pan",
+        "Vishwanatha Rao",
+        "Madhav Subramaniyam",
+        "Márió Szegedy",
+        "Nancy R. Zhang",
+        "Katalin Suszták"
+      ],
+      "year": 2025,
+      "doi": "10.1101/2025.09.30.679471",
+      "documentType": null,
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Genomics and molecular",
+        "Gastroenterology",
+        "Nephrology"
+      ],
+      "datasets": [
+        "One"
+      ],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE01199",
+      "title": "MoME: Mixture of Visual Language Medical Experts for Medical Imaging Segmentation",
+      "authors": [
+        "Arghavan Rezvani",
+        "Xiangyi Yan",
+        "Anthony T. Wu",
+        "Kun Han",
+        "Pooya Khosravi",
+        "Xiaohui Xie"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2510.26996",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology"
+      ],
+      "datasets": [],
+      "backbones": [
+        "CLIP",
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "cross-validation",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01407",
+      "title": "SemAnTICA Lab at MediQA-SYNUR 2026: Route, Extract and Verify – An LLM-gated Ensemble for Parsing Nurse Dictations",
+      "authors": [
+        "Sy Hwang",
+        "Katherine S. Pitcher",
+        "Sue Hyon Kim",
+        "Yoonjae Lee",
+        "Hayoung K. Donelly",
+        "Harsh Bandhey",
+        "Andrew J. King",
+        "Karen O'Connor",
+        "Ryan J. Urbanowicz",
+        "Danielle L. Mowery"
+      ],
+      "year": 2026,
+      "doi": "10.63317/3cfpmqqpmdq5",
+      "documentType": null,
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [
+        "EHR structured/tabular",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Uncertainty or reliability",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 60
+    },
+    {
+      "id": "MOE01172",
+      "title": "Adapting 2D Multi-Modal Large Language Model for 3D CT Image Analysis",
+      "authors": [
+        "Yang Yu",
+        "Dunyuan Xu",
+        "Yaoqian Li",
+        "Xiaomeng Li",
+        "Jinpeng Li",
+        "Pheng-Ann Heng"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2604.10233",
+      "documentType": "preprint",
+      "application": "Clinical NLP, documentation and question answering",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis",
+        "generation",
+        "question answering"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Cardiology",
+        "Respiratory"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Token",
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE00768",
+      "title": "Multimodal Hybrid Healthcare Recommendation System Based on ERT-MOE and Large Language Model enhancement",
+      "authors": [
+        "Cai H."
+      ],
+      "year": 2024,
+      "doi": "10.1109/eiecc64539.2024.10929467",
+      "documentType": "Conference paper",
+      "application": "Treatment, recommendation and causal inference",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [
+        "classification",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Neurology"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 53.3
+    },
+    {
+      "id": "MOE00399",
+      "title": "Dual-Stream Hierarchical Mixed-Routing Graph Attention Network Integrating ReAct Agent-Driven Embeddings for Phage-Host Interaction Prediction",
+      "authors": [
+        "S. Jiang",
+        "Y. Huang",
+        "X. Shen",
+        "W. Zhao"
+      ],
+      "year": 2025,
+      "doi": "10.1109/bibm66473.2025.11356403",
+      "documentType": "IEEE Conferences",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "representation learning"
+      ],
+      "specialties": [
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Modality",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "cross-validation",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00548",
+      "title": "Towards Digital Twins in Prostate Cancer: A Mixture-of-Experts Framework for Multitask Prognostics in Hospital Admissions",
+      "authors": [
+        "Annette John",
+        "Reda Alhajj",
+        "Jon Rokne"
+      ],
+      "year": 2025,
+      "doi": "10.3390/app152412959",
+      "documentType": "Article",
+      "application": "EHR, patient trajectories and risk prediction",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "EHR structured/tabular"
+      ],
+      "tasks": [
+        "diagnosis",
+        "risk/outcome prediction",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Oncology",
+        "Critical care",
+        "Gastroenterology",
+        "Nephrology"
+      ],
+      "datasets": [
+        "MIMIC-IV"
+      ],
+      "backbones": [
+        "ClinicalBERT"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set; retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00709",
+      "title": "Med-MoE: Mixture of Domain-Specific Experts for Lightweight Medical Vision-Language Models",
+      "authors": [
+        "Songtao Jiang",
+        "Tuo Zheng",
+        "Yan Zhang",
+        "Yeying Jin",
+        "Yuan, Li",
+        "Liu, Zuozhu"
+      ],
+      "year": 2024,
+      "doi": "10.18653/v1/2024.findings-emnlp.221",
+      "documentType": "Proceedings Paper",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "classification",
+        "question answering",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Respiratory",
+        "Pediatrics"
+      ],
+      "datasets": [
+        "VQA-RAD",
+        "SLAKE",
+        "PathVQA"
+      ],
+      "backbones": [],
+      "routingDensity": "dense/soft combination",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00734",
+      "title": "Data-Driven MoE: A Data-Driven Approach to Construct MoE by a Single LLM",
+      "authors": [
+        "Teng, ZY",
+        "Yan, ZW",
+        "Song, Y",
+        "Ye, XZ",
+        "Ouyang, Y"
+      ],
+      "year": 2024,
+      "doi": "10.1007/978-981-97-5672-8_30",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [],
+      "tasks": [],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Mixtral"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01313",
+      "title": "Automatically Extracting Information in Medical Dialogue: Expert System And Attention for Labelling",
+      "authors": [
+        "Xinshi Wang",
+        "Daniel Tang"
+      ],
+      "year": 2022,
+      "doi": "10.48550/arxiv.2211.15544",
+      "documentType": "preprint",
+      "application": "Clinical NLP, documentation and question answering",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [],
+      "tasks": [
+        "classification",
+        "information extraction / coding",
+        "representation learning"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [
+        "MIE"
+      ],
+      "backbones": [
+        "BERT"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE00620",
+      "title": "Towards a Multimodal Large Language Model with Pixel-Level Insight for Biomedicine",
+      "authors": [
+        "Xiaoshuang Huang",
+        "Lingdong Shen",
+        "Jia Liu",
+        "Fangxin Shang",
+        "Hongxiang Li",
+        "Haifeng Huang",
+        "Yehui Yang"
+      ],
+      "year": 2025,
+      "doi": "10.1609/aaai.v39i4.32394",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "question answering",
+        "multi-task learning",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Dermatology",
+        "Ophthalmology"
+      ],
+      "datasets": [
+        "VQA-RAD",
+        "SLAKE",
+        "PathVQA",
+        "PMC-VQA",
+        "MeCoVQA"
+      ],
+      "backbones": [
+        "CLIP",
+        "ViT",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Modality",
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE00171",
+      "title": "From Image to Pixels: towards Fine-Grained Medical Vision-Language Models.",
+      "authors": [
+        "Lingdong Shen",
+        "Xiaoshuang Huang",
+        "Fangxin Shang",
+        "Xi Zhang",
+        "Yehui Yang",
+        "Bin Fan",
+        "Shiming Xiang"
+      ],
+      "year": 2026,
+      "doi": "10.1109/tpami.2026.3682684",
+      "documentType": "Article In Press",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis",
+        "question answering"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Ophthalmology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE00858",
+      "title": "FEDKIM: Adaptive Federated Knowledge Injection into Medical Foundation Models",
+      "authors": [
+        "Xiaochen Wang",
+        "Jiaqi Wang",
+        "Houping Xiao",
+        "Jinghui Chen",
+        "Fenglong Ma"
+      ],
+      "year": 2024,
+      "doi": "10.18653/v1/2024.emnlp-main.464",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Cardiology",
+        "Critical care",
+        "Dermatology",
+        "Infectious disease"
+      ],
+      "datasets": [
+        "MIMIC-III",
+        "CheXpert",
+        "SLAKE"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set; multicenter evaluation",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01240",
+      "title": "BrainCSD: A Hierarchical Consistency-Driven MoE Foundation Model for Unified Connectome Synthesis and Multitask Brain Trait Prediction",
+      "authors": [
+        "Xiongri Shen",
+        "Jiaqi Wang",
+        "Yi Zhong",
+        "Zhenxi Song",
+        "Leilei Zhao",
+        "Liling Li",
+        "Yichen Wei",
+        "Lingyan Liang",
+        "Shuqiang Wang",
+        "Baiying Lei",
+        "Demao Deng",
+        "Zhiguo Zhang"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2511.05630",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Neurology",
+        "Mental health",
+        "Pathology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "cross-validation; held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00286",
+      "title": "Sparse Mixture-of-Experts LLMs for Efficient ICD Code Prediction in Clinical Outcome Modeling",
+      "authors": [
+        "N. Dantale",
+        "P. Goel",
+        "S. Mundra",
+        "A. Mundra",
+        "G. Aggarwal"
+      ],
+      "year": 2025,
+      "doi": "10.1109/ic366947.2025.11290394",
+      "documentType": "IEEE Conferences",
+      "application": "Clinical NLP, documentation and question answering",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "risk/outcome prediction",
+        "information extraction / coding"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Critical care"
+      ],
+      "datasets": [
+        "MIMIC-IV"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Token"
+      ],
+      "routingSignal": [
+        "Learned input-dependent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01392",
+      "title": "SplitThenMerge: Token-Level Skill-Compositional Sparse Mixture-of-Experts for Complex Domain-Specific Tasks",
+      "authors": [
+        "Yuting Huang",
+        "Jiawen Zhang",
+        "Yiquan Wu",
+        "Yinghao Hu",
+        "Fei Wu",
+        "Kun Kuang"
+      ],
+      "year": 2026,
+      "doi": "10.18653/v1/2026.findings-acl.606",
+      "documentType": null,
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [],
+      "tasks": [
+        "classification",
+        "generation"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Token",
+        "Patient or sample"
+      ],
+      "routingSignal": [
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01194",
+      "title": "National Institute on Aging PREPARE Challenge: Early Detection of Cognitive Impairment Using Speech -- The SpeechCARE Solution",
+      "authors": [
+        "Maryam Zolnoori",
+        "Hossein Azadmaleki",
+        "Yasaman Haghbin",
+        "Ali Zolnour",
+        "Mohammad Javad Momeni Nezhad",
+        "Sina Rashidi",
+        "Mehdi Naserian",
+        "Elyas Esmaeili",
+        "Sepehr Karimi Arpanahi"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2511.08132",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "EHR structured/tabular",
+        "physiological / wearable signals",
+        "demographics / clinical variables"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis"
+      ],
+      "specialties": [
+        "Neurology",
+        "Mental health",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": "dense/soft combination",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": true,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01083",
+      "title": "WPG-MoE: Weak-Prior-Guided Dense Mixture-of-Experts for User-Level Social Media Depression Detection",
+      "authors": [
+        "Xian Li",
+        "Yuanhe Tian",
+        "Yang Yang",
+        "Guoqing Wang",
+        "Yan Song"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2607.04350",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [],
+      "tasks": [
+        "classification"
+      ],
+      "specialties": [
+        "Mental health"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE01193",
+      "title": "NeurIPT: Foundation Model for Neural Interfaces",
+      "authors": [
+        "Zitao Fang",
+        "Chenxuan Li",
+        "Hongting Zhou",
+        "Shuyang Yu",
+        "Guodong Du",
+        "Ashwaq Qasem",
+        "Yang Lu",
+        "Jing Li",
+        "Junsong Zhang",
+        "Sim Kuan Goh"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2510.16548",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "physiological / wearable signals",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Neurology",
+        "Mental health",
+        "Genomics and molecular",
+        "Dermatology",
+        "Rehabilitation"
+      ],
+      "datasets": [
+        "EEG"
+      ],
+      "backbones": [
+        "BERT",
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Token",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE01212",
+      "title": "Intelligent Communication Mixture-of-Experts Boosted-Medical Image Segmentation Foundation Model",
+      "authors": [
+        "Xinwei Zhang",
+        "Hu Chen",
+        "Zhe Yuan",
+        "Sukun Tian",
+        "Peng Feng"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2510.17684",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Radiology and imaging"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE01186",
+      "title": "SparseDoctor: Towards Efficient Chat Doctor with Mixture of Experts Enhanced Large Language Models",
+      "authors": [
+        "Jianbin Zhang",
+        "Yulin Zhu",
+        "Wai Lun Lo",
+        "Richard Tai-Chiu Hsung",
+        "Harris Sik-Ho Tsang",
+        "Kai Zhou"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2509.14269",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [],
+      "tasks": [
+        "question answering"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01125",
+      "title": "Learning Sparse Latent Predictive Foundation Model for Multimodal Neuroimaging",
+      "authors": [
+        "Haoxu Huang",
+        "Long Chen",
+        "Jingyun Chen",
+        "Jinu Hyun",
+        "James Ryan Loftus",
+        "Kara Melmed",
+        "Daniel Orringer",
+        "Jennifer Frontera",
+        "Seena Dehkharghani",
+        "Arjun Masurkar",
+        "Narges Razavian"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2606.14957",
+      "documentType": "preprint",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Neurology",
+        "Mental health",
+        "Pathology",
+        "Genomics and molecular",
+        "Dermatology"
+      ],
+      "datasets": [
+        "ADNI"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Patient or sample",
+        "Modality",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set; multicenter evaluation",
+      "externalValidation": true,
+      "multicentreEvaluation": true,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE01165",
+      "title": "Brainstacks: Cross-Domain Cognitive Capabilities via Frozen MoE-LoRA Stacks for Continual LLM Learning",
+      "authors": [
+        "Mohammad R. Abu Ayyash"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2604.01152",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [],
+      "tasks": [],
+      "specialties": [
+        "Neurology",
+        "Mental health",
+        "Pediatrics"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Gemma",
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Token"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE02723",
+      "title": "Innovative Applications of Large Language Models for Medical Record Access Audits",
+      "authors": [
+        "陳文意",
+        "黃兆明"
+      ],
+      "year": 2024,
+      "doi": "10.31219/osf.io/a9ubh",
+      "documentType": null,
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [],
+      "tasks": [],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Mistral"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 53.3
+    },
+    {
+      "id": "MOE00590",
+      "title": "MammoVLM: A generative large vision–language model for mammography-related diagnostic assistance",
+      "authors": [
+        "Cao, ZJ",
+        "Deng, Z",
+        "Ma, J",
+        "Hu, JT",
+        "Ma, L"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.inffus.2025.102998",
+      "documentType": "Article",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set; retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01372",
+      "title": "Technical Synthesis and Deployment Framework for a Pashto-Centric Pharmaceutical Information System Utilizing Gemma-4 Multimodal Architectures and Local Knowledge Bases",
+      "authors": [
+        "Halimi MR."
+      ],
+      "year": 2026,
+      "doi": "10.21203/rs.3.rs-9672999/v1",
+      "documentType": null,
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Gastroenterology"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Gemma"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE01089",
+      "title": "Towards Specialized Generalists: A Multi-Task MoE-LoRA Framework for Domain-Specific LLM Adaptation",
+      "authors": [
+        "Yuxin Yang",
+        "Aoxiong Zeng",
+        "Xiangquan Yang"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2601.07935",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Parameter-efficient adaptation",
+      "modalities": [
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "diagnosis",
+        "generation",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Neurology",
+        "Mental health"
+      ],
+      "datasets": [
+        "PubMedQA",
+        "MedQA"
+      ],
+      "backbones": [],
+      "routingDensity": "dense/soft combination",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE01228",
+      "title": "EchoVLM: Dynamic Mixture-of-Experts Vision-Language Model for Universal Ultrasound Intelligence",
+      "authors": [
+        "Chaoyin She",
+        "Rui-Fang Lu",
+        "Li‐Da Chen",
+        "Wei Wang",
+        "Qinghua Huang"
+      ],
+      "year": 2025,
+      "doi": "10.18653/v1/2026.acl-long.494",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multi-task sharing",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "diagnosis",
+        "generation",
+        "question answering",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Surgery"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "held-out test set; retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": true,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE01266",
+      "title": "Multimodal Clinical Trial Outcome Prediction with Large Language Models",
+      "authors": [
+        "Wenhao Zheng",
+        "Wang, Liaoyaqi",
+        "Peng, Dongshen",
+        "Hongxia Xu",
+        "Li, Yun",
+        "Hongtu Zhu",
+        "Tianfan Fu",
+        "Huaxiu Yao"
+      ],
+      "year": 2024,
+      "doi": "10.48550/arxiv.2402.06512",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [
+        "risk/outcome prediction"
+      ],
+      "specialties": [
+        "Oncology",
+        "Infectious disease"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01479",
+      "title": "On the Utility and Factual Reliability of Pruned Mixture-of-Experts Models in the Biomedical Domain",
+      "authors": [
+        "A Yamaguchi",
+        "Szymon Palucha",
+        "Léo Bijar",
+        "Aline Villavicencio",
+        "Nikolaos Aletras"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2607.01444",
+      "documentType": null,
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [],
+      "tasks": [
+        "classification"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE01105",
+      "title": "PathMoE: Interpretable Multimodal Interaction Experts for Pediatric Brain Tumor Classification",
+      "authors": [
+        "Jian Yu",
+        "Joakim Nguyen",
+        "Jinrui Fang",
+        "Awais Naeem",
+        "Zeyuan Cao",
+        "Sanjay Krishnan",
+        "Nicholas Konz",
+        "Tianlong Chen",
+        "Chandra Krishnan",
+        "Hairong Wang",
+        "Edward Castillo",
+        "Ying Ding",
+        "Ankita Shukla"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2603.01547",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Mental health",
+        "Pathology",
+        "Genomics and molecular",
+        "Pediatrics"
+      ],
+      "datasets": [
+        "TCGA",
+        "PBT"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Patient or sample",
+        "Modality"
+      ],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Task or metadata",
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "cross-validation",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00627",
+      "title": "DermaFormer: An Efficient Foundation Model for Dermoscopic Lesion Segmentation with Mixed Training Strategies",
+      "authors": [
+        "Hu, MZ",
+        "Li, Q",
+        "Yang, XF"
+      ],
+      "year": 2026,
+      "doi": "10.1117/12.3088032",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Dermatology"
+      ],
+      "datasets": [
+        "HAM10000"
+      ],
+      "backbones": [
+        "Swin Transformer",
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00877",
+      "title": "Multimodal model for pneumonia detection based on enhanced stacking MOE",
+      "authors": [
+        "Liu Z.",
+        "Liu Z.",
+        "Zhang M.",
+        "Men L.",
+        "Li J."
+      ],
+      "year": 2024,
+      "doi": "10.1109/eiecc64539.2024.10929600",
+      "documentType": "Conference paper",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Respiratory"
+      ],
+      "datasets": [],
+      "backbones": [
+        "BERT",
+        "ResNet"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE00259",
+      "title": "Knowledge Distillation in Mixture of Experts for Multi-Modal Medical LLMs",
+      "authors": [
+        "Mohit Nathani",
+        "Rajat Soni",
+        "Rajiv Kumar Mishra"
+      ],
+      "year": 2024,
+      "doi": "10.1109/bigdata62323.2024.10825733",
+      "documentType": "Proceedings Paper",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality",
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 60
+    },
+    {
+      "id": "MOE02104",
+      "title": "MoEPH: an adaptive fusion-based LLM for predicting phage-host interactions in health informatics",
+      "authors": [
+        "Qian Chen",
+        "Zihang Zhao",
+        "Min Li",
+        "Wenchen Song",
+        "Minfeng Xiao",
+        "Min Fang"
+      ],
+      "year": 2025,
+      "doi": "10.3389/fmicb.2025.1634705",
+      "documentType": null,
+      "application": "Treatment, recommendation and causal inference",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "recommendation / decision support",
+        "representation learning"
+      ],
+      "specialties": [
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00443",
+      "title": "MoE-Health: A Mixture of Experts Framework for Robust Multimodal Healthcare Prediction",
+      "authors": [
+        "Wang, Xiaoyang",
+        "Yang, Christopher"
+      ],
+      "year": 2025,
+      "doi": "10.1145/3765612.3767207",
+      "documentType": "Proceedings Paper",
+      "application": "EHR, patient trajectories and risk prediction",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "EHR structured/tabular",
+        "medical imaging",
+        "image + text / vision-language",
+        "omics / molecular",
+        "demographics / clinical variables"
+      ],
+      "tasks": [
+        "classification",
+        "risk/outcome prediction",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Critical care",
+        "Genomics and molecular"
+      ],
+      "datasets": [
+        "MIMIC-III",
+        "MIMIC-IV",
+        "MIMIC-CXR",
+        "CheXpert"
+      ],
+      "backbones": [
+        "ClinicalBERT",
+        "DenseNet"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE01110",
+      "title": "MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification",
+      "authors": [
+        "Jiahao Xu",
+        "Sheng Huang",
+        "Xin Zhang",
+        "Zhixiong Nan",
+        "Jiajun Dong",
+        "Nankun Mu"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2602.20873",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "classification"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Pathology"
+      ],
+      "datasets": [
+        "WSI"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Similarity or latent",
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00162",
+      "title": "Can Chatbots Provide Accurate and Readable Information for Patients With Temporomandibular Disorders?.",
+      "authors": [
+        "Pagotto L.E.C.",
+        "Almeida D.R.D.M.F.",
+        "de Santana Santos T.",
+        "de Morais E.F."
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.joms.2025.08.012",
+      "documentType": "Article",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [],
+      "tasks": [],
+      "specialties": [
+        "Gastroenterology",
+        "Surgery",
+        "Oral health"
+      ],
+      "datasets": [],
+      "backbones": [
+        "GPT-4",
+        "DeepSeek",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Mixed proprietary and open-weight",
+      "reportingCompleteness": 60
+    },
+    {
+      "id": "MOE00528",
+      "title": "A Comprehensive Analysis of Advancements in Medical Decision Support Systems",
+      "authors": [
+        "Saumya Mehra",
+        "Bhawna Jain",
+        "Drishti Rani",
+        "Prerna Singh",
+        "Sona Varshney"
+      ],
+      "year": 2026,
+      "doi": "10.1007/978-3-032-19185-4_22",
+      "documentType": "Conference paper",
+      "application": "Treatment, recommendation and causal inference",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [
+        "MIMIC-III",
+        "PubMedQA",
+        "MedQA",
+        "MedMCQA",
+        "MultiMedQA"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00784",
+      "title": "EFFICIENTLY DEMOCRATIZING MEDICAL LLMS FOR 50 LANGUAGES VIA A MIXTURE OF LANGUAGE FAMILY EXPERTS",
+      "authors": [
+        "Guorui Zheng",
+        "Xidong Wang",
+        "Liang, Juhao",
+        "Nuo Chen",
+        "Yuping Zheng",
+        "Benyou Wang"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2410.10626",
+      "documentType": "Conference paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Conditional computation/scaling",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00753",
+      "title": "ScMoE: Integrating Heterogeneous Single-Cell and Molecular Foundation Models Using a Mixture-of-Experts Framework",
+      "authors": [
+        "Zhang R.",
+        "Xu H.",
+        "Fang T.",
+        "Meng Z.",
+        "Wang X."
+      ],
+      "year": 2025,
+      "doi": "10.1109/bibm66473.2025.11356012",
+      "documentType": "Conference paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Oncology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Modality",
+        "Feature patch or voxel"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "cross-validation; held-out test set; external/independent validation",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00654",
+      "title": "Enhancing medical MLLMs with dual vision encoders and MoE-based modality projector",
+      "authors": [
+        "Zhou, FZ",
+        "Liu, XY",
+        "Yang, ZY",
+        "Li, ZP",
+        "Xiao, HG"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.knosys.2026.115275",
+      "documentType": "Article",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "image + text / vision-language"
+      ],
+      "tasks": [
+        "question answering"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [
+        "CLIP"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Learned input-dependent",
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01238",
+      "title": "Bridging Brains and Models: MoE-Based Functional Lesions for Simulating and Rehabilitating Aphasia",
+      "authors": [
+        "Yifan Wang",
+        "Jingyuan Sun",
+        "Jichen Zheng",
+        "Yunhao Zhang",
+        "Chunyu Ye",
+        "Jixing Li",
+        "Chengqing Zong",
+        "Shaonan Wang"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2508.04749",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "physiological / wearable signals"
+      ],
+      "tasks": [],
+      "specialties": [
+        "Neurology",
+        "Mental health",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Transformer"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Token",
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE00254",
+      "title": "Adaptive Aggregation of Medical Foundation Models for Computational Pathology via Mixture-of-Experts Framework",
+      "authors": [
+        "Jiang Chongcong"
+      ],
+      "year": 2025,
+      "doi": "10.1109/iccwamtip68645.2025.11352650",
+      "documentType": "IEEE Conferences",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Oncology",
+        "Pathology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [
+        "Feature patch or voxel",
+        "Decision or model"
+      ],
+      "routingSignal": [
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE01883",
+      "title": "A Unified Multi-Modal Mixture-of-Experts Model for Integrated Representation Learning in Pharmaceutical Sciences",
+      "authors": [
+        "Anushree Bhople"
+      ],
+      "year": 2026,
+      "doi": "10.67231/kytb0e28",
+      "documentType": null,
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "clinical text / notes",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "representation learning"
+      ],
+      "specialties": [
+        "Genomics and molecular"
+      ],
+      "datasets": [
+        "PubMedQA",
+        "BioASQ"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "cross-validation; held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE01247",
+      "title": "Adapting Foundation Vision-Language Models to Medical Diagnosis via Query-Driven Expert Bridging",
+      "authors": [
+        "Yitong Li",
+        "Morteza Ghahremani",
+        "Christian Wachinger"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2505.21698",
+      "documentType": "preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "representation learning"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Pathology",
+        "Genomics and molecular",
+        "Respiratory",
+        "Infectious disease"
+      ],
+      "datasets": [
+        "MIMIC-CXR",
+        "CheXpert",
+        "ChestX-ray14"
+      ],
+      "backbones": [
+        "Qwen",
+        "CLIP",
+        "ViT"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Token"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00095",
+      "title": "Multimodal fusion of pathology and radiology foundation models for WHO 2021 glioma subtyping.",
+      "authors": [
+        "Camillo Saueressig",
+        "Daniel Scholz",
+        "Philipp Raffler",
+        "Claire Delbridge",
+        "Benedikt Wiestler",
+        "Peter J. Schüffler"
+      ],
+      "year": 2026,
+      "doi": "10.1038/s41698-026-01366-5",
+      "documentType": "Article",
+      "application": "Multimodal clinical intelligence",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Pathology",
+        "Genomics and molecular"
+      ],
+      "datasets": [
+        "TCGA"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "cross-validation; held-out test set; external/independent validation",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00187",
+      "title": "Reproducibility and Robustness of Large Language Models for Mobility Functional Status Extraction.",
+      "authors": [
+        "Xingyi Liu",
+        "Muskan Garg",
+        "Eunji Jeon",
+        "Heling Jia",
+        "Jennifer L. St. Sauver",
+        "Sandeep R. Pagali",
+        "Sunghwan Sohn"
+      ],
+      "year": 2026,
+      "doi": "10.64898/2026.04.03.26350117",
+      "documentType": "Preprint",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "information extraction / coding",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Genomics and molecular",
+        "Rehabilitation"
+      ],
+      "datasets": [],
+      "backbones": [
+        "Llama"
+      ],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": null,
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": false,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 60
+    },
+    {
+      "id": "MOE00741",
+      "title": "BiMediX: Bilingual Medical Mixture of Experts LLM",
+      "authors": [
+        "Sara Pieri",
+        "Sahal Shaji Mullappilly",
+        "Fahad Shahbaz Khan",
+        "Rao Muhammad Anwer",
+        "Salman Khan",
+        "Timothy Baldwin",
+        "Hisham Cholakkal"
+      ],
+      "year": 2024,
+      "doi": "10.18653/v1/2024.findings-emnlp.989",
+      "documentType": "Conference paper",
+      "application": "Evaluation, robustness and implementation",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Patient/subpopulation experts",
+      "moeFunction": "Heterogeneity/stratification",
+      "modalities": [],
+      "tasks": [
+        "question answering"
+      ],
+      "specialties": [
+        "General or multispecialty"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Proprietary model",
+      "reportingCompleteness": 93.3
+    },
+    {
+      "id": "MOE00077",
+      "title": "Context-Guided Mixture-of-Experts with Multimodal LLMs for Lesion Detection in Buccal Mucosa Images.",
+      "authors": [
+        "Nayak A.",
+        "Diddigi R.B.",
+        "Kestur R.",
+        "Kumar P.D.M.",
+        "Ranganathan K.",
+        "Lavanya C.",
+        "Rajeshwari S.",
+        "Behera S.S."
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.identj.2026.109575",
+      "documentType": "Article",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Task experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "image + text / vision-language",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Oncology",
+        "Pathology",
+        "Genomics and molecular",
+        "Oral health"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Task"
+      ],
+      "routingSignal": [
+        "Task or metadata",
+        "Uncertainty or reliability",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set; retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE01178",
+      "title": "Trustworthy and Fair SkinGPT-R1 for Democratizing Dermatological Reasoning across Diverse Ethnicities",
+      "authors": [
+        "Yuhao Shen",
+        "Zhangtianyi Chen",
+        "Yuanhao He",
+        "Yan Xu",
+        "Shuping Zhang",
+        "Liyuan Sun",
+        "Zijian Wang",
+        "Yinghao Zhu",
+        "Yuyuan Yang",
+        "Jiahe Qian",
+        "Ziwen Wang",
+        "Xinyuan Zhang",
+        "Wenbin Liu",
+        "Zongyuan Ge",
+        "Tao Lu",
+        "Siyuan Yan",
+        "Juexiao Zhou"
+      ],
+      "year": 2025,
+      "doi": "10.48550/arxiv.2511.15242",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "diagnosis",
+        "information extraction / coding"
+      ],
+      "specialties": [
+        "Pathology",
+        "Genomics and molecular",
+        "Dermatology"
+      ],
+      "datasets": [
+        "Fitz17k",
+        "DDI"
+      ],
+      "backbones": [],
+      "routingDensity": "sparse/selective",
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 3: independent or multicentre evaluation",
+      "validationDesign": "external/independent validation; retrospective study; prospective study",
+      "externalValidation": true,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": true,
+      "humanEvaluation": true,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 100
+    },
+    {
+      "id": "MOE00522",
+      "title": "DiA-gnostic VLVAE: Disentangled Alignment-Constrained Vision Language Variational AutoEncoder for Robust Radiology Reporting with Missing Modalities",
+      "authors": [
+        "Teja Cherukuri",
+        "Adnan Masood",
+        "Nagur Shaik",
+        "Dong Ye"
+      ],
+      "year": 2026,
+      "doi": "10.1609/aaai.v40i11.37835",
+      "documentType": "Proceedings Paper",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging",
+        "image + text / vision-language",
+        "knowledge graph / medical knowledge"
+      ],
+      "tasks": [
+        "generation"
+      ],
+      "specialties": [
+        "Radiology and imaging"
+      ],
+      "datasets": [
+        "MIMIC-CXR",
+        "IU X-Ray"
+      ],
+      "backbones": [
+        "Llama"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality",
+        "Uncertainty or reliability",
+        "Rule-based or fixed"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE00675",
+      "title": "VWENet: Volumetric wavelet and mixture-of-experts network for 3D medical image segmentation",
+      "authors": [
+        "Zhaoyang Tan",
+        "Qing Cai",
+        "Chengyi Xia"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.patrec.2026.02.020",
+      "documentType": "Article",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Generic/unclear specialization",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [
+        "diagnosis"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Neurology",
+        "Cardiology"
+      ],
+      "datasets": [
+        "BraTS"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": false,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 66.7
+    },
+    {
+      "id": "MOE00141",
+      "title": "HiCur-NPC: Hierarchical Feature Fusion Curriculum Learning for Multi-Modal Foundation Model in Nasopharyngeal Carcinoma.",
+      "authors": [
+        "Wang, ZP",
+        "Fang, MJ",
+        "Tang, LL",
+        "Tian, J",
+        "Dong, D"
+      ],
+      "year": 2025,
+      "doi": "10.1109/tmi.2025.3558775",
+      "documentType": "IEEE Journals",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Modality experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "medical imaging"
+      ],
+      "tasks": [
+        "diagnosis",
+        "risk/outcome prediction",
+        "generation"
+      ],
+      "specialties": [
+        "Radiology and imaging",
+        "Oncology",
+        "Genomics and molecular"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Modality"
+      ],
+      "routingSignal": [
+        "Modality"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "held-out test set; retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 80
+    },
+    {
+      "id": "MOE01147",
+      "title": "ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model",
+      "authors": [
+        "Yuhao Xu",
+        "Xiaoda Wang",
+        "Yi Wu",
+        "Wei Jin",
+        "Xiao Hu",
+        "Carl Yang"
+      ],
+      "year": 2026,
+      "doi": "10.48550/arxiv.2603.04589",
+      "documentType": "preprint",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Adapter/parameter experts",
+      "moeFunction": "Multimodal/data fusion",
+      "modalities": [
+        "physiological / wearable signals"
+      ],
+      "tasks": [
+        "diagnosis",
+        "multi-task learning"
+      ],
+      "specialties": [
+        "Cardiology",
+        "Rehabilitation"
+      ],
+      "datasets": [
+        "MIMIC-IV"
+      ],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [
+        "Decision or model"
+      ],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 2: internal retrospective patient-data evaluation",
+      "validationDesign": "retrospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": false,
+      "modelAccess": null,
+      "reportingCompleteness": 86.7
+    },
+    {
+      "id": "MOE00367",
+      "title": "Domain Adaptive Document Reranking for Retrieval Augmented Generation",
+      "authors": [
+        "Y. Rachidy",
+        "Y. Hmamouche",
+        "F. Sehbaoui",
+        "A. E. F. Seghrouchni"
+      ],
+      "year": 2025,
+      "doi": "10.1109/ictai66417.2025.00200",
+      "documentType": "IEEE Conferences",
+      "application": "Medical foundation models and LLM platforms",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Clinical-domain experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "omics / molecular"
+      ],
+      "tasks": [
+        "generation"
+      ],
+      "specialties": [
+        "Genomics and molecular",
+        "Gastroenterology"
+      ],
+      "datasets": [],
+      "backbones": [],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [
+        "Uncertainty or reliability",
+        "Similarity or latent"
+      ],
+      "inputDependentRouting": true,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": null,
+      "reportingCompleteness": 73.3
+    },
+    {
+      "id": "MOE00150",
+      "title": "Improving Transformer Performance for French Clinical Notes Classification Using Mixture of Experts on a Limited Dataset.",
+      "authors": [
+        "Thanh-Dung Le",
+        "Philippe Jouvet",
+        "Rita Noumeir"
+      ],
+      "year": 2025,
+      "doi": "10.1109/jtehm.2025.3576570",
+      "documentType": "IEEE Journals",
+      "application": "Clinical diagnosis, prognosis and decision support",
+      "paradigm": "LLM/VLM/foundation-model MoE",
+      "expertOrganization": "Model/scale experts",
+      "moeFunction": "Feature or decision specialization",
+      "modalities": [
+        "clinical text / notes",
+        "omics / molecular"
+      ],
+      "tasks": [
+        "classification",
+        "recommendation / decision support"
+      ],
+      "specialties": [
+        "Critical care",
+        "Genomics and molecular",
+        "Pediatrics"
+      ],
+      "datasets": [],
+      "backbones": [
+        "BERT",
+        "Transformer"
+      ],
+      "routingDensity": null,
+      "routingGranularity": [],
+      "routingSignal": [],
+      "inputDependentRouting": false,
+      "evidenceTier": "Level 1: benchmark, synthetic, or non-patient evaluation",
+      "validationDesign": "held-out test set; prospective study",
+      "externalValidation": false,
+      "multicentreEvaluation": false,
+      "prospectiveEvaluation": false,
+      "fairnessAnalysis": false,
+      "humanEvaluation": false,
+      "nonMoeComparator": true,
+      "peerReviewed": true,
+      "modelAccess": "Open-weight model",
+      "reportingCompleteness": 86.7
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this evidence map, please cite the associated review and this repository."
+title: "Med-MoE-FM Evidence Map"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-23
+repository-code: "https://github.com/Learner4everrr/Med-MOE-FM-survey"
+url: "https://learner4everrr.github.io/Med-MOE-FM-survey/"
+authors:
+  - family-names: Zhan
+    given-names: Zaifu
+  - family-names: Yu
+    given-names: Kai
+  - family-names: Zeng
+    given-names: Min
+  - family-names: Song
+    given-names: Meijia
+  - family-names: Zhou
+    given-names: Xiaoshan
+  - family-names: Chen
+    given-names: Xiaoyi
+  - family-names: Song
+    given-names: Yiran
+  - family-names: Feng
+    given-names: Xincan
+  - family-names: Cui
+    given-names: Mengyuan
+  - family-names: Zhang
+    given-names: Rui
+
