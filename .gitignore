@@ -8,4 +8,7 @@ Thumbs.db
 *.pdf
 source/
 tmp/
+/analysis/
+/figures/
+/.venv/
 

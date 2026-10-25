@@ -1,0 +1,5 @@
+# Versions used for the verified manuscript reproduction (Python 3.12).
+pandas==3.0.1
+numpy==2.3.5
+Pillow==12.3.0
+reportlab==4.4.9
